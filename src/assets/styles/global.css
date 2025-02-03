@@ -1,0 +1,126 @@
+/* Custom Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #343a40 !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+  }
+  
+  #projects h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 100px 0;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #2575fc;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6a11cb;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
